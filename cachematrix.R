@@ -31,7 +31,7 @@ cacheSolve <- function(x, ...) {
     ## Return a matrix that is the inverse of 'x'
     minv <- x$getMatrixInverse()
     if(!is.null(minv)) {
-      message("getting cached matrix inverse data")
+      message("getting cached matrix inverse")
       return(minv)
     }
     data <- x$get()
